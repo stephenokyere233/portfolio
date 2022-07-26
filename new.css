@@ -1,0 +1,32 @@
+  #newmenu li {
+      padding: 5px 10%;
+      /* justify-content: center;
+      align-self: center;
+      display: flex; */
+      border-bottom: 1px solid grey;
+      transition: 0.2s;
+  }
+
+  #newmenu li:first-child {
+      border-top: 1px solid grey;
+      margin-top: 20px;
+      align-content: flex-start;
+  }
+
+  #newmenu li a {
+      letter-spacing: 0.1em;
+      /* text-transform: uppercase*/
+  }
+
+  #newmenu {
+      width: 100%;
+      margin-top: 43px;
+      margin-bottom: 0ch;
+      padding-bottom: 0px;
+  }
+
+  #newmenu li:hover {
+      background-color: gray;
+      border-right: 5px solid blueviolet;
+      border-left: 5px solid blueviolet;
+  }

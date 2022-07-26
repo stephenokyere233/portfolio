@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="public/main.css" />
+    <!-- <link rel="stylesheet" href="input.css"> -->
+    <title>Document</title>
+  </head>
+  <body class="w-screen"
+   
+  >
+    <div class="capitalize bg-gray-400 scroll-smooth ">
+      <!--wrapper-->
+
+      <!-- menu -->
+      <header class="h-16 top-0 fixed z-10 left-0 bg-gray-400 border-b border-gray-500 w-screen">
+      <div class=" flex h-full items-center justify-between max-w-7xl m-auto ">
+        <h1 class="text-4xl flex lowercase font-bold">
+          <svg
+            id="burger"
+            class="md:hidden w-10 mr-4"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+          port<span class="text-purple-700">folio</span>
+        </h1>
+        <nav id="menu" 
+          class=" md:flex hidden items-center font-semibold capitalize"
+        >
+            <a href="#hero-section" class="mx-6 tracking-widest hover:opacity-30 trasition">home</a>
+            <a href="#about" class="mx-6 tracking-widest  hover:opacity-30 trasition" >about</a>
+            <a href="#projects" class="mx-6 tracking-widest  hover:opacity-30 trasition">projects</a>
+            <a href="#skills" class="mx-6 tracking-widest  hover:opacity-30 trasition">skills</a>
+            <a href="#contact" class="mx-6 tracking-widest  hover:opacity-30 trasition" >contact</a>
+        </nav>
+        <!-- cv button -->
+        <button
+          class="text-sm flex-nowrap rounded-full px-7 mr-6 md:px-10 py-2 font-semibold bg-purple-700 shadow hover:scale-90 hover:transform transition ease-out duration-500"
+        >
+          Download CV
+        </button>
+        <!-- end button -->
+      </div><!-- end menu -->
+      </header>
+
+
+      
+      <div class="font-semibold flex md:hidden  justify-around text-xl">
+        <ul id="newmenu" class="flex-col hidden">
+           <li><a href="#hero-section">home</a></li>
+           <li><a href="#about">about</a></li> 
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+
+      <!-- whole start -->
+      <main id="hero-section" class="mt-10 py-20 w-screen">
+        <!-- text start -->
+        <div class="md:flex p-5 justify-around max-w-7xl m-auto items-center h-full">
+          <div class="mx-4 md:mx-0 flex flex-col flex-wrap">
+            <h1 class="font-bold tracking-wide md:text-6xl text-4xl mb-6">
+              i'm stephen <span class="text-purple-700">okyere,</span>
+            </h1>
+            <span class="font-semibold text-lg ">junior web developer</span>
+            <button href="#contact"
+              class=" hover:scale-110 hover:transform transition ease-out duration-300 capitalize mt-12 w-48 block rounded-full px-10 py-2 font-semibold bg-purple-700 shadow"
+            >
+              lets link up!→ 
+            </button>
+          </div>
+          <!-- text end -->
+          <div class="mx-10 mt-20 md:mt-0  md:w-1/3 m-auto md:m-0">
+            <img
+              class="border  border-purple-700 rounded-full object-contain shadow-lg bg-black"
+              src="user.png"
+              alt=""
+            />
+          </div>
+        </div> 
+      </main>
+      <!-- hero sec end -->
+        <!-- text sections -->
+      <div class="flex justify-around flex-col">
+        <!-- about section -->
+      <article id="about" class="py-20 mt-10 md:mx-20 ">
+        <div class="max-w-7xl w-full m-auto flex flex-col h-full p-5">
+          <h1 class="tracking-wide text-6xl font-semibold my-6">about me</h1>
+          <p class="text-xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+          laborum ab quis odit dicta obcaecati officiis architecto eligendi,
+          deserunt hic facilis repellendus distinctio, exercitationem et modi
+          possimus id sapiente aspernatur voluptatem veritatis! Facere ipsam
+          reiciendis suscipit commodi quae ipsum dicta.</p>
+        </div>
+      </article>
+      <!-- end about -->
+      <!-- project start -->
+     <article id="projects" class="py-20 mt-10 md:mx-20 ">
+        <div class="max-w-7xl w-full m-auto flex flex-col  h-full p-5">
+          <h1 class="tracking-wide text-6xl font-semibold my-6">projects</h1>
+          <p class="text-xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+          laborum ab quis odit dicta obcaecati officiis architecto eligendi,
+          deserunt hic facilis repellendus distinctio, exercitationem et modi
+          possimus id sapiente aspernatur voluptatem veritatis! Facere ipsam
+          reiciendis suscipit commodi quae ipsum dicta.</p>
+        </div>
+        <section class="grid grid-cols-2 gap-10">
+          <div class="border">
+            <img src="pow.png" alt="" class="">
+            <p class="font-semibold">Landing Page</p>
+            <a href="3">Go to site→</a>
+
+          </div>
+          <div>
+            <img src="work.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="3">Go to site→</a>
+
+
+          </div>
+          <div>
+<img src="work.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="3">Go to site→</a>
+
+          </div>
+          <div>
+<img src="work.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="3">Go to site→</a>
+
+          </div>
+        </section>
+      </article>
+      <!-- project end -->
+      <!-- whole end -->
+   
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

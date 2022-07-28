@@ -1,30 +1,25 @@
   #newmenu li {
       padding: 5px 10%;
-      /* justify-content: center;
-      align-self: center;
-      display: flex; */
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid rgb(63, 61, 61);
       transition: 0.2s;
   }
-
   #newmenu li:first-child {
-      border-top: 1px solid grey;
+      border-top: 1px solid rgb(78, 78, 78);
       margin-top: 20px;
       align-content: flex-start;
   }
-
   #newmenu li a {
       letter-spacing: 0.1em;
-      /* text-transform: uppercase*/
   }
-
   #newmenu {
       width: 100%;
       margin-top: 43px;
       margin-bottom: 0ch;
       padding-bottom: 0px;
+      position: fixed;
+      z-index: 1;
+      background: #222;
   }
-
   #newmenu li:hover {
       background-color: gray;
       border-right: 5px solid blueviolet;

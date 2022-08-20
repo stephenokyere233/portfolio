@@ -4,154 +4,288 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- <link rel="stylesheet" href="public/main.css" /> -->
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/ebf7970d3f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ebf7970d3f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body class="w-screen text-white bg-[#222]  lg:mt-0 overflow-x-hidden"
-   
-  >
-    <div class="capitalize bg-[#222] scroll-smooth  ">
-
+  <body class="w-screen  text-white bg-[#222] overflow-x-hidden">
+    <div class="capitalize bg-[#222] scroll-smooth">
       <!-- menu -->
-      <header class="h-16 top-0 fixed z-10 left-0 bg-[#222222] shadow-lg w-screen">
-      <div class=" px-4 flex h-full items-center md:px-10 justify-between max-w-7xl m-auto ">
-        <h1 class="text-3xl tracking-tight md:text-4xl flex lowercase font-bold">
-          port<span class="text-purple-700">folio</span>
-        </h1>
-        <nav id="menu" 
-          class=" lg:flex hidden items-center font-semibold capitalize"
+      <header class="h-16 top-0 z-10 sticky left-0 bg-[#222222] shadow-lg w-screen">
+        <div
+          class="px-4 flex h-full items-center md:px-10 justify-between max-w-7xl m-auto"
         >
-            <a href="#hero-section" class="mx-6 tracking-widest hover:opacity-30 trasition">home</a>
-            <a href="#about" class="mr-2 tracking-widest  hover:opacity-30 trasition" >about</a>
-            <a href="#projects" class="mx-6 tracking-widest  hover:opacity-30 trasition">projects</a>
-            <a href="#skills" class="mx-6 tracking-widest  hover:opacity-30 trasition">skills</a>
-            <a href="#contact" class="mx-6 tracking-widest  hover:opacity-30 trasition" >contact</a>
-        </nav>
-        <!-- cv button -->
-        <button
-          class="text-sm flex-nowrap rounded-full px-4  md:px-10 py-2 font-semibold bg-purple-700 shadow hover:scale-90 hover:transform transition ease-out duration-500"
-        >
-          Download CV
-        </button>
-        <!-- end button -->
-      </div><!-- end menu -->
+          <h1
+            class="text-3xl tracking-tight md:text-4xl flex lowercase font-bold"
+          >
+            port<span class="text-purple-700">folio</span>
+          </h1>
+          <nav
+            id="menu"
+            class="lg:flex hidden items-center font-semibold capitalize"
+          >
+            <a
+              href="#hero-section"
+              class="mx-6 tracking-widest hover:opacity-30 trasition"
+              >home</a
+            >
+            <a
+              href="#about"
+              class="mr-2 tracking-widest hover:opacity-30 trasition"
+              >about</a
+            >
+            <a
+              href="#projects"
+              class="mx-6 tracking-widest hover:opacity-30 trasition"
+              >projects</a
+            >
+            <a
+              href="#skills"
+              class="mx-6 tracking-widest hover:opacity-30 trasition"
+              >skills</a
+            >
+            <a
+              href="#contact"
+              class="mx-6 tracking-widest hover:opacity-30 trasition"
+              >contact</a
+            >
+          </nav>
+          <!-- cv button -->
+          <button
+            class="text-sm flex-nowrap rounded-full px-4 md:px-10 py-2 font-semibold bg-purple-700 shadow hover:scale-90 hover:transform transition ease-out duration-500"
+          >
+            Download CV
+          </button>
+          <!-- end button -->
+        </div>
+        <!-- end menu -->
       </header>
       <!-- whole start -->
-      <main id="hero-section" class="h-full md:h-screen m-auto md:mt-[9rem] lg:mt-10 py-20 w-screen" >
+      <main
+        id="hero-section"
+        class="h-full md:h-screen lg:h-[90vh]  flex flex-col lg:flex-row md:justify-around max-w-7xl md:mx-auto px-4 items-center py-4 w-screen"
+      >
         <!-- text start -->
-        <div class="flex flex-col lg:flex-row justify-around max-w-7xl md:mx-auto items-center h-full">
-          <div class="mx-4 md:mx-0 flex flex-col flex-nowrap">
-            <h1 class="font-bold tracking-wide md:tracking-normal md:text-6xl text-[3.5em] mb-6">
-              i'm stephen <span class="text-purple-700">okyere,</span>
-            </h1>
-            <span class="font-semibold text-lg ">junior web developer</span>
-            <button href="#contact"
-              class=" hover:scale-110 hover:transform transition ease-out duration-300 capitalize mt-12 w-48 block rounded-full px-10 py-2 font-semibold bg-purple-700 shadow"
-            >
-              lets link up!→ 
-            </button>
-          </div>
-          <!-- text end -->
-          <div class=" mt-10  object-contain px-4 pr-8 md:pr-0 w-screen flex justify-center  lg:w-1/3">
-            <img
-              class=" rounded-full object-contain shadow-lg "
-              src="https://res.cloudinary.com/devsteveserver/image/upload/v1659633257/profile_ztphau.png"
-              alt=""
-            />
-          </div>
-        </div> 
+
+        <div class="mx-4 md:mx-0">
+          <h1
+            class="font-bold tracking-wide md:tracking-normal md:text-6xl text-[3em] mb-6"
+          >
+            i'm stephen <span class="text-purple-700">okyere,</span>
+          </h1>
+          <span class="font-semibold text-lg"
+            >web developer ♠ content creator
+          </span>
+
+          <button
+            href="#contact"
+            class="hover:scale-110 hover:transform transition ease-out duration-300 capitalize mt-12 w-48 block rounded-full px-10 py-2 font-semibold bg-purple-500 shadow"
+          >
+            lets link up!→
+          </button>
+        </div>
+        <!-- text end -->
+        <div
+          class="object-contain px-4 pr-8 md:pr-0 w-screen flex justify-center lg:w-1/3 mt-10 lg:mt-0"
+        >
+          <img
+            class="rounded-full object-contain shadow-lg"
+            src="https://res.cloudinary.com/devsteveserver/image/upload/v1659633257/profile_ztphau.png"
+            alt=""
+          />
+        </div>
       </main>
       <!-- hero sec end -->
-        <!-- text sections -->
-      <div class="flex justify-around  flex-col px-6 md:px-0">
+      <!-- text sections -->
+      <div class="flex justify-center items-center flex-col px-6 md:px-0">
         <!-- about section -->
-      <article id="about" class=" md:py-20 mt-10 md:mx-20 ">
-        <div class="max-w-7xl w-full m-auto flex flex-col h-full px-4" data-aos="zoom-in">
-          <h1 class="tracking-wide text-6xl font-semibold my-6" >about me</h1>
-          <p class="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-          laborum ab quis odit dicta obcaecati officiis architecto eligendi,
-          deserunt hic facilis repellendus distinctio, exercitationem et modi
-          possimus id sapiente aspernatur voluptatem veritatis! Facere ipsam
-          reiciendis suscipit commodi quae ipsum dicta.</p>
-        </div>
-      </article>
+        <article id="about" class="md:py-20 mt-10 md:mx-20">
+          <div
+            class="max-w-7xl w-full flex flex-col h-full px-2"
+            data-aos="zoom-in"
+          >
+            <h1
+              class="tracking-wide text-[3.2em] md:text-6xl font-semibold my-6"
+            >
+              about me
+            </h1>
+            <p class="text-[1em] md:text-xl md:leading-10">
+              Tech is one thing I'm very passionate about,I love to learn new
+              stuff. I was a bit late to programming tho buh i'm doing my best
+              and i try to document my progress everyday by building new stuff.
+            </p>
+          </div>
+        </article>
+      </div>
       <!-- end about -->
       <!-- project start -->
-     <article id="projects" class="py-20 mt-10 md:mx-20 ">
-        <div class="max-w-7xl w-full m-auto flex flex-col  h-full p-5 " data-aos="zoom-in">
-          <h1 class="tracking-wide text-6xl font-semibold my-6" >projects</h1>
-          <p class="text-2xl font-semibold">
-
-         Some stuff i built</p>
-        </div>
-        <section class="grid lg:grid-cols-2 grid-cols-1 gap-20 p-5 md:p-10" data-aos="zoom-in">
-          <div class=" shadow-xl overflow-hidden rounded " data-aos="zoom-in" >
-            <img class=" w-full md:h-[350px] object-cover"src="https://res.cloudinary.com/devsteveserver/image/upload/v1658864145/pow_rwbslg.png" alt="" class="">
-            <div class="px-5 py-3"><p class="font-semibold text-xl">Landing Page</p>
-            <p>get a hold of me</p>
-            <a class="text-purple-700" href="https://dev-steve.netlify.app/">Go to site→</a></div>
-            
-
+      <div class="flex justify-center items-center flex-col px-6">
+        <article id="projects" class="py-10 mt-10 md:mx-20">
+          <div
+            class="max-w-7xl w-full flex flex-col h-full p-2"
+            data-aos="zoom-in"
+          >
+            <h1
+              class="tracking-wide text-[3.2em] md:text-6xl font-semibold my-6"
+            >
+              projects
+            </h1>
+            <p class="text-xl font-semibold">Some stuff i built</p>
           </div>
-          <div class="shadow-xl overflow-hidden  rounded "data-aos="zoom-in">
-            <img class=" w-full md:h-[350px] object-cover" src="https://res.cloudinary.com/devsteveserver/image/upload/v1658972277/pow_iibcpq.png" alt="">
-           <div class="px-5 py-3"><p class="font-semibold text-xl">Palindrome Checker</p>
-            <p>Find Out if a word or a number is a palindrome</p>
-            <a class="text-purple-700" href="https://palindromcheck.netlify.app/">Go to site→</a></div>
+          <section
+            class="grid lg:grid-cols-2 grid-cols-1 gap-20 p-5 max-w-7xl"
+            data-aos="zoom-in"
+          >
+            <div class="shadow-xl overflow-hidden rounded" data-aos="zoom-in">
+              <img
+                class="w-full h-[210px] md:h-[350px] object-cover"
+                src="https://res.cloudinary.com/devsteveserver/image/upload/v1658864145/pow_rwbslg.png"
+                alt=""
+                class=""
+              />
+              <div class="leading-8 p-4">
+                <p class="font-semibold text-xl">Landing Page</p>
+                <p>get a hold of me</p>
+                <a class="text-purple-700" href="https://dev-steve.netlify.app/"
+                  >Go to site→</a
+                >
+              </div>
+            </div>
+            <div class="shadow-xl overflow-hidden rounded" data-aos="zoom-in">
+              <img
+                class="w-full h-[210px] md:h-[350px] object-cover"
+                src="https://res.cloudinary.com/devsteveserver/image/upload/v1658972277/pow_iibcpq.png"
+                alt=""
+              />
+              <div class="leading-8 p-4">
+                <p class="font-semibold text-xl">Palindrome Checker</p>
+                <p>Find Out if a word or a number is a palindrome</p>
+                <a
+                  class="text-purple-700"
+                  href="https://palindromcheck.netlify.app/"
+                  >Go to site→</a
+                >
+              </div>
+            </div>
+            <div class="shadow-xl overflow-hidden rounded" data-aos="zoom-in">
+              <img
+                class="w-full h-[210px] md:h-[350px] object-cover"
+                src="https://res.cloudinary.com/devsteveserver/image/upload/v1659633596/switch_ovcrbj.jpg"
+                alt=""
+              />
+              <div class="leading-8 p-4">
+                <p class="font-semibold text-xl">Switch</p>
+                <p>Toggles between light mode and dark mode</p>
+                <a
+                  class="text-purple-700"
+                  href="https://light-to-dark.netlify.app/"
+                  >Go to site→</a
+                >
+              </div>
+            </div>
+            <div class="shadow-xl overflow-hidden rounded" data-aos="zoom-in">
+              <img
+                class="w-full h-[210px] md:h-[350px] object-cover"
+                src="https://res.cloudinary.com/devsteveserver/image/upload/v1659632883/proof_f7kc8c.png"
+                alt=""
+              />
+              <div class="leading-8 p-4">
+                <p class="font-semibold text-xl">WeDo!</p>
+                <p>A To-Do list app</p>
 
+                <a class="text-purple-700" href="https://wedoo.netlify.app/"
+                  >Go to site→</a
+                >
+              </div>
+            </div>
+            <div class="shadow-xl overflow-hidden rounded" data-aos="zoom-in">
+              <img
+                class="w-full h-[210px] md:h-[350px] object-cover"
+                src="https://res.cloudinary.com/devsteveserver/image/upload/v1660853170/icons/powrps_qkoqac.png"
+                alt=""
+              />
+              <div class="leading-8 p-4">
+                <p class="font-semibold text-xl">Rock-Paper-Scissors</p>
+                <p>A Rock-Paper-Scissors game</p>
 
-          </div>
-          <div class="shadow-xl overflow-hidden  rounded " data-aos="zoom-in">
-            <img class=" w-full  md:h-[350px] object-cover" src="https://res.cloudinary.com/devsteveserver/image/upload/v1659633596/switch_ovcrbj.jpg" alt="">
-            <div class="px-5 py-3"><p class="font-semibold text-xl">Switch</p>
-              <p>Toggles between light mode and dark mode</p>
-            <a class="text-purple-700" href="https://light-to-dark.netlify.app/">Go to site→</a></div>
-
-          </div>
-          <div class="shadow-xl overflow-hidden rounded " data-aos="zoom-in">
-            <img class=" w-full md:h-[350px] object-cover"src="https://res.cloudinary.com/devsteveserver/image/upload/v1659632883/proof_f7kc8c.png" alt="">
-           <div  class="px-5 py-3"><p class="font-semibold text-xl">WeDo!</p>
-            <p>A To-Do list app </p>
-   
-            <a class="text-purple-700" href="https://wedoo.netlify.app/">Go to site→</a></div>
-
-          </div>
-          <div class="shadow-xl overflow-hidden rounded " data-aos="zoom-in">
-            <img class=" w-full md:h-[350px] object-cover"src="https://res.cloudinary.com/devsteveserver/image/upload/v1660853170/icons/powrps_qkoqac.png" alt="">
-           <div  class="px-5 py-3"><p class="font-semibold text-xl">Rock-Paper-Scissors</p>
-            <p>A Rock-Paper-Scissors game</p>
-   
-            <a class="text-purple-700" href="https://rpsgamex.netlify.app/">Go to site→</a></div>
-
-          </div>
-        </section>
-      </article>
-      <!-- project end -->
-          <article id="skills" class=" md:py-20 mt-10 md:mx-20  h-screen">
-        <div class="max-w-7xl w-full  flex flex-col h-full px-4" data-aos="zoom-in">
-          <h1 class="tracking-wide text-6xl font-semibold my-6" >tools i can use</h1>
-       <div class="grid grid-cols-2 md:grid-cols-3 gap-10 lg:grid-cols-4 xl:grid-cols-5">
-        <p class=" w-max shadow-xl bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4  py-2" data-aos="zoom-in"><span class="mr-2">HTML5</span><i class="fa-brands fa-html5 fa-xl"></i></p>
-      <p class=" w-max shadow-lg bg-black  flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4  py-2" data-aos="zoom-in"><span class="mr-2">HTML5</span><i class="fa-brands fa-html5 fa-xl"></i></p>
-                 <p class=" w-max shadow-lg bg-black  flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2" data-aos="zoom-in"><span class="mr-2">JavaScript</span><i class="fa-brands fa-js fa-xl"></i></p>
-                  <p class=" w-max shadow-lg bg-black  flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2" data-aos="zoom-in"><span class="mr-2">CSS3</span><i class="fa-brands fa-css3-alt fa-xl"></i></p>
-
-            <p class=" w-max shadow-lg bg-black  flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2" data-aos="zoom-in"><span class="mr-2">TailwindCSS</span><i class="fa-brands fa-html5 fa-xl"></i></p>
-  
-       </div>
-        </div>
-      </article>
+                <a class="text-purple-700" href="https://rpsgamex.netlify.app/"
+                  >Go to site→</a
+                >
+              </div>
+            </div>
+          </section>
+        </article>
+        <!-- project end -->
+      </div>
       <!-- whole end -->
+      <div class="flex items-center flex-col px-6 ">
+        <article id="projects" class="py-10 mt-10 md:mx-20 ">
+          <div
+            class="max-w-7xl w-full flex flex-col h-full p-2"
+            data-aos="zoom-in"
+          >
+            <h1
+              class="tracking-wide text-[3.2em] md:text-6xl font-semibold my-6"
+            >
+             Tech stack
+            </h1>
+          </div>
+          <div class="h-screen"  data-aos="zoom-in">
+
    
+           <div
+              class="  grid grid-cols-2 md:grid-cols-3 gap-10 lg:grid-cols-4 xl:grid-cols-5"
+            >
+              <p
+                class="w-max shadow-xl bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2"
+                data-aos="zoom-in"
+              >
+                <span class="mr-2">HTML5</span
+                ><i class="fa-brands fa-html5 fa-xl"></i>
+              </p>
+              <p
+                class="w-max shadow-lg bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2"
+                data-aos="zoom-in"
+              >
+                <span class="mr-2">HTML5</span
+                ><i class="fa-brands fa-html5 fa-xl"></i>
+              </p>
+              <p
+                class="w-max shadow-lg bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2"
+                data-aos="zoom-in"
+              >
+                <span class="mr-2">JavaScript</span
+                ><i class="fa-brands fa-js fa-xl"></i>
+              </p>
+              <p
+                class="w-max shadow-lg bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2"
+                data-aos="zoom-in"
+              >
+                <span class="mr-2">CSS3</span
+                ><i class="fa-brands fa-css3-alt fa-xl"></i>
+              </p>
+
+              <p
+                class="w-max shadow-lg bg-black flex justify-between rounded-[30px] items-center text-xl md:text-2xl px-4 py-2"
+                data-aos="zoom-in"
+              >
+                <span class="mr-2">TailwindCSS</span
+                ><i class="fa-brands fa-html5 fa-xl"></i>
+              </p>
+          </div>
+                 </div>
+        </article>
+      </div>
     </div>
     <script src="index.js"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

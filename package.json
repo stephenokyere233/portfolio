@@ -1,0 +1,17 @@
+{
+  "name": "newtail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./main.css ",
+    "watch": "tailwindcss -i ./input.css -o public/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "tailwindcss": "^3.1.6"
+  }
+}
